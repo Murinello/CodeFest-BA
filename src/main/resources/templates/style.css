@@ -1,0 +1,138 @@
+#header-logo {
+	padding: 20px 0 0 0; 
+	margin-bottom: 30px; 
+	display: inline-block;
+}
+#header-title img {
+	float: left;
+}
+
+#header-title span {
+	text-transform: uppercase; 
+	font-weight: 300; 
+	color: #fff; 
+	background-color: #D01B83; 
+	display: inline-block; 
+	height: 35px; 
+	line-height: 35px; 
+	padding: 0px 20px; 
+	margin-left: 5px;
+	font-size: 0.5em;
+}
+
+header {
+	background: url(images/bg_tr.jpg) 
+	no-repeat #fff right top; 
+	background-size: 300px 111px;
+}
+
+#row-content-login {
+	background: url(images/background_login_pic.jpg) no-repeat center center; 
+	background-size: cover; 
+	padding-top: 100px; 
+	padding-bottom: 50px; 
+	background-attachment: fixed;
+}
+
+#row-content {
+	background: url(images/background_general_pic.jpg) no-repeat center center; 
+	background-size: cover; 
+	padding-top: 100px; 
+	padding-bottom: 50px; 
+	background-attachment: fixed;
+}
+
+#login-content{
+	padding: 20px 0px;
+	width: 60%;
+}
+
+#content{
+	padding: 20px 0px;
+	height: 100%;
+}
+
+
+.col-6{
+	background-color: rgb(255,255,255,0.8);
+	padding: 10px;
+	width: 60%;
+}
+
+#user_icon{
+	border-radius: 50%;
+	margin-top: -50px;
+}
+
+#site {
+	padding-top: 100px;
+}
+
+label {
+	color: #D01B83;
+}
+
+.form-control {
+	border-color: #212121;
+}
+
+h2 {
+	text-transform: uppercase; 
+	color: #D01B83;
+}
+
+h4{
+	color: #D01B83;
+}
+
+#btn-login {
+	background-color: #D01B83; 
+	border-color: #D01B83; 
+	margin-bottom:20px;
+	width: 70%;
+}
+
+button.btn.btn-primary{
+	background-color: #D01B83; 
+	border-color: #D01B83; 
+	margin-top: 32px;
+}
+
+#name-right {
+	color: #D01B83; 
+	text-transform: uppercase; 
+	font-size: 1.5em; 
+	background: url(images/arrow_left.png) 
+	no-repeat right center; 
+	background-size:40px 30px; 
+	padding-right: 50px; 
+}
+
+.modal-body{
+	color: #D01B83; 
+}
+
+.modal-title{
+		color: #999999; 
+}
+
+#profile-card{
+	margin-top: 20px;
+	margin-right: 10px;
+	color: #D01B83; 
+	border-bottom: 1px solid #D01B83;
+
+}
+
+#name-teacher{
+	text-transform: uppercase; 
+	color: #fff; 
+	background-color: #D01B83; 
+	height: 35px; 
+	line-height: 35px; 
+	padding: 0px 20px; 
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+

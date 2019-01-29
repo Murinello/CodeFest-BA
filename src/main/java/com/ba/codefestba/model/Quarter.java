@@ -3,6 +3,9 @@ package com.ba.codefestba.model;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import javax.persistence.Entity;
+
+
 public class Quarter {
 
 	private int firstDay;

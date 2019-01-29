@@ -1,0 +1,269 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>Login User</title>
+		<!-- Bootstrap core CSS -->
+		<link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		
+			<header class="fixed-top">
+				<div class="container-fluid ">
+					
+					<!-- INICIA HEADER -->
+					<div class="row">
+						<div class="col">
+							<a href="#" id="header-logo">
+								<img src="images/logo_cibernarium.png" alt="Cibernarium"/>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-sm-12 col-md-6">
+							
+							<h1 id="header-title"><a href="file:///Users/luisatenorio/Desktop/SITE/index.html"><img src="images/general_icon.png" alt="Cibernarium" /> </a><span>Modificar Datos</span></h1>
+							
+						</div>	
+
+
+
+						
+
+						<div class="col-sm-12 col-md-6 text-right">
+							<span id="name-right">Nombre del Docente</span>
+						</div>
+					</div>
+					
+				</div>
+			</header>
+		
+		
+		<div id="site" class="container-fluid">
+						
+			<!-- INICIA CONTENIDO -->
+			<div id="row-content" class="row">
+				<div class="col">
+					<form action="server.php" method="get">
+						
+						
+								<div id="content" class="container">
+									
+									<div class="row">
+										<div class="col-2"></div>
+										<div class="col">
+											<h4>Modificar Datos</h4>
+										</div>
+										<div class="col"></div>
+									</div>	
+
+									<div class="row">
+											<div class="col-2"></div>
+
+											<div class="col-sm-12 col-md-4">
+								
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-name-new">Nombre:</label>
+													<input id="form-name-new" name="form-name-new" type="text" class="form-control" placeholder="nombre" >
+												</div>
+												</fieldset>
+											</div>	
+									
+											<div class="col-sm-12 col-md-4">
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-lastname-new">Apellido:</label>
+													<input id="form-lastname-new" name="form-lastname-new" type="text" class="form-control" placeholder="apellido" >
+												</div>
+												</fieldset>
+											</div>
+
+											<div class="col-2"></div>
+										
+									</div>	
+
+									<div class="row">
+											<div class="col-2"></div>
+
+											<div class="col-sm-12 col-md-4">
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-DNI-new">DNI:</label>
+													<input id="form-DNI-new" name="form-DNI-new" type="text" class="form-control" placeholder="nombre" >
+												</div>
+												</fieldset>
+											</div>	
+									
+											<div class="col-sm-12 col-md-4">
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-birthdate-new">Fecha de Nacimiento:</label>
+													<input id="form-birthdate-new" name="form-birthdate-new" type="date" class="form-control" placeholder="año-mes-dia" >
+												</div>
+												</fieldset>
+											</div>
+
+											<div class="col-2"></div>
+										
+									</div>
+
+									<div class="row">
+											<div class="col-2"></div>
+
+											<div class="col-sm-12 col-md-4">
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-telephone-new">Télefono:</label>
+													<input id="form-telephone-new" name="form-telephone-new" type="text" class="form-control" placeholder="télefono" >
+												</div>
+												</fieldset>
+											</div>	
+									
+											<div class="col-sm-12 col-md-4">
+												<fieldset disabled>
+												<div class="form-group">
+													<label for="form-address-new">Dirección:</label>
+													<input id="form-address-new" name="form-address-new" type="text" class="form-control" placeholder="dirección" >
+												</div>
+												</fieldset>
+											</div>
+
+											<div class="col-2"></div>
+										
+									</div>
+							
+							<div class="row">
+									<div class="col-2"></div>
+
+									<div class="col-sm-12 col-md-4">
+										<div class="form-group ">
+											<label for="form-availability-new">Disponibilidad:</label>
+												<select id="form-availability-new" name="form-availability-new" type="text" class="form-control " placeholder="" >
+													<option selected>Selecciona una franja horaria</option>
+													<option> AM </option>
+													<option> PM </option>
+													<option> TODO EL DÍA </option>
+
+												</select>	
+										</div>
+									</div>	
+							
+									<div class="col-sm-12 col-md-4">
+										<div class="form-group">
+											<label for="form-notavailable-new">Días no disponibles:</label>
+											<input id="form-notavailable-new" name="form-notavailable-new" type="text" class="form-control" placeholder="yyyy-mm-dd / yyyy-mm-dd" >
+										</div>
+									</div>
+
+									<div class="col-2"></div>
+							</div>
+		
+
+							<div class="row">
+
+									<div class="col-2"></div>
+									
+									<div class="col-4 text-left">
+
+										<div class="custom-control custom-checkbox custom-control-inline">
+											<input type="checkbox" class="custom-control-input" id="monday-select">
+											<label class="custom-control-label" for="monday-select">L</label>
+										</div>
+
+										<div class="custom-control custom-checkbox custom-control-inline">
+											  <input type="checkbox" class="custom-control-input" id="tuesday-select">
+											  <label class="custom-control-label" for="tuesday-select">M</label>
+										</div>
+
+										<div class="custom-control custom-checkbox custom-control-inline">
+											  <input type="checkbox" class="custom-control-input" id="wednesday-select">
+											  <label class="custom-control-label" for="wednesday-select">M</label>
+										</div>
+
+										<div class="custom-control custom-checkbox custom-control-inline">
+											  <input type="checkbox" class="custom-control-input" id="thursday-select">
+											  <label class="custom-control-label" for="thursday-select">J</label>
+										</div>
+
+										<div class="custom-control custom-checkbox custom-control-inline">
+											  <input type="checkbox" class="custom-control-input" id="friday-select">
+											  <label class="custom-control-label" for="friday-select">V</label>
+										</div>
+
+
+									</div>
+
+									 <div class="col-4-"></div>
+
+									 <div class="col-2-"></div>
+							</div>
+
+							<div class="row">
+									<div class="col-2"></div>
+
+									<div class="col-2 ">
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-save">Guardar Cambios</button>
+									</div>
+
+									<div class="col-2 text-right">
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-delete">Eliminar Docente</button>
+									</div>
+
+									<div class="col-3"></div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+
+
+		<div class="modal fade" id="modal-save" tabindex="-1" role="dialog" aria-labelledby="modal-save" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Docente #</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						Los datos del docente Laura Rivera se han guardado.
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>		
+
+		<div class="modal fade" id="modal-delete" tabindex="-1" role="dialog" aria-labelledby="modal-delete" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Docente #</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body text-center">
+						El docente Laura Rivera se ha eliminado.
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</html>

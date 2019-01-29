@@ -3,6 +3,9 @@ package com.ba.codefestba.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.Entity;
+
+
 public class Schedule {
 	
 	private List<Day> scheduleDayList=new ArrayList<Day>();

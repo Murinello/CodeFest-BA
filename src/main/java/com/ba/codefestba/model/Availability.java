@@ -3,6 +3,9 @@ package com.ba.codefestba.model;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 public class Availability {
 
 	public static boolean[][] AvailabilityArray() {
